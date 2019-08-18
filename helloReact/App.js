@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleSheet, View, Text, Button, TouchableOpacity, Image} from 'react-native';
-import axios from 'axios';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export default function App() {

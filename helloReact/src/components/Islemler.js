@@ -6,8 +6,6 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 class Islemler extends Component{
     
     state = {data : []}
-    
-    
     componentWillMount(){
         console.log('componentWillMount')
         axios.get('http://demo2733612.mockable.io/islemler')
