@@ -20,6 +20,7 @@ const styles = {
         height:60,
         justifyContent : 'center',
         alignItems : 'center',
+        borderRadius: 20,
         marginTop : 24,
         shadowOffset : {weight : 0, height : 3 },
         shadowOpacity : 0.5

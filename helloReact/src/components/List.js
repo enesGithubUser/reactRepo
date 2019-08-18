@@ -8,7 +8,7 @@ class List extends Component{
     
     componentWillMount(){
         console.log('componentWillMount')
-        axios.get('http://reduxblog.herokuapp.com/api/posts')
+        axios.get('http://demo2733612.mockable.io/islemler')
             .then(response =>{
             debugger
             const datas = response.data
